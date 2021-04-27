@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
@@ -9,31 +7,38 @@ export default StyleSheet.create({
     borderRadius: 10,
     justifyContent: 'space-between',
     alignItems: 'center',
+    padding: 5,
   },
   headingText: {
     fontSize: 40,
-    backgroundColor: 'yellow',
-    padding: 30,
-    marginTop: 60,
+    backgroundColor: 'rgba(255, 255, 0, .9)',
+    padding: 25,
+    marginTop: 55,
     textAlign: 'center',
     borderRadius: 12,
     overflow: 'hidden',
-    color: 'brown',
+    color: 'green',
+    fontWeight: 'bold',
+    borderColor: 'rgba(205,255,105,0.9)',
+    borderWidth: 5,
   },
   headingTwoText: {
     fontSize: 20,
-    backgroundColor: 'yellow',
-    padding: 30,
+    backgroundColor: 'rgba(255, 255, 0, .9)',
+    padding: 20,
     textAlign: 'center',
-    margin: 8,
+    marginTop: 8,
     borderRadius: 12,
     overflow: 'hidden',
     color: 'brown',
+    fontWeight: 'bold',
+    borderColor: 'rgba(205,255,105,0.9)',
+    borderWidth: 5,
   },
   backgroundImage: {
     flex: 1,
     resizeMode: 'cover',
-    backgroundColor: 'rgb(255, 0, 0)',
+    backgroundColor: 'rgb(0, 0, 0)',
   },
   bottom: {
     alignItems: 'center',
@@ -48,6 +53,9 @@ export default StyleSheet.create({
     borderBottomColor: 'green',
     borderBottomWidth: 4,
     justifyContent: 'space-between',
+    shadowOffset: {width: 10, height: 15},
+    shadowOpacity: 0.9,
+    shadowRadius: 3,
   },
   buttonContainerTwo: {
     backgroundColor: 'rgba(255, 255, 0, 0.9)',
@@ -58,6 +66,9 @@ export default StyleSheet.create({
     borderBottomColor: 'green',
     borderBottomWidth: 4,
     justifyContent: 'space-between',
+    shadowOffset: {width: 10, height: 15},
+    shadowOpacity: 0.9,
+    shadowRadius: 3,
   },
   generateButton: {
     fontSize: 25,
@@ -65,6 +76,7 @@ export default StyleSheet.create({
     color: 'brown',
     textAlign: 'center',
     width: 250,
+    shadowColor: 'black',
   },
   topShelfButton: {
     fontSize: 25,
@@ -76,22 +88,22 @@ export default StyleSheet.create({
   // RANDOMIZER COMPONENT //
 
   randomizerContainer: {
-    justifyContent: 'center',
+    justifyContent: 'space-between',
+    width: '100%',
   },
   row: {
     flexDirection: 'row',
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     alignItems: 'center',
-    width: '80%',
     marginBottom: 25,
   },
   rowTitle: {
-    color: 'white',
+    color: 'rgba(205,255,105,0.9)',
     fontSize: 20,
-    position: 'absolute',
-    top: 20,
-    left: 0,
     zIndex: 3,
+    textShadowColor: 'white',
+    textShadowOffset: {width: -1, height: 1},
+    textShadowRadius: 3,
   },
   resultStarter: {
     fontSize: 40,
@@ -99,6 +111,11 @@ export default StyleSheet.create({
     fontWeight: '700',
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
     padding: 12,
+    marginLeft: -50,
+    zIndex: 4,
+    shadowOffset: {width: 10, height: 15},
+    shadowOpacity: 0.9,
+    shadowRadius: 3,
   },
   resultFlavor: {
     fontSize: 40,
@@ -106,6 +123,11 @@ export default StyleSheet.create({
     fontWeight: '700',
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
     padding: 12,
+    marginLeft: -50,
+    zIndex: 4,
+    shadowOffset: {width: 10, height: 15},
+    shadowOpacity: 0.9,
+    shadowRadius: 3,
   },
   resultFinale: {
     fontSize: 40,
@@ -113,6 +135,13 @@ export default StyleSheet.create({
     fontWeight: '700',
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
     padding: 12,
+    marginLeft: -50,
+    zIndex: 4,
+    shadowOffset: {width: 10, height: 15},
+    shadowOpacity: 0.9,
+    shadowRadius: 3,
   },
-  lockIcon: {},
+  lockIcon: {
+    marginRight: 20,
+  },
 });
