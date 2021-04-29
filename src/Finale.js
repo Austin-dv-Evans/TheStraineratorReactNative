@@ -25,8 +25,8 @@ const finale = [
   'ballin!',
   'diesel!',
   'express!',
-  'poison',
-  'trainwreck!'
+  'poison!',
+  'trainwreck!',
 ];
 
 export default finale;

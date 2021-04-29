@@ -88,15 +88,25 @@ const Home = () => {
     }
   };
 
-  const storeData = async (value1, value2, value3) => {
+  const saveItem = async (val1, val2, val3) => {
+    const shelfItemToBeSaved = {starter: val1, flavor: val2, finale: val3};
+    const existingShelfItems = await AsyncStorage.getItem('topShelf');
+    let newItem = JSON.parse(existingShelfItems);
+    if (!newItem) {
+      newItem = [];
+    }
+    newItem.push(shelfItemToBeSaved);
+    storeData(newItem);
+  };
+
+  const storeData = async value => {
     try {
-      await AsyncStorage.setItem('starter', value1);
-      await AsyncStorage.setItem('flavor', value2);
-      await AsyncStorage.setItem('finale', value3);
+      const jsonValue = JSON.stringify(value);
+      await AsyncStorage.setItem('topShelf', jsonValue);
     } catch (e) {
       console.log(e);
     }
-    console.log('done', value1, value2, value3);
+    console.log('done', value);
   };
 
   return (
@@ -131,7 +141,7 @@ const Home = () => {
         <View style={styles.bottom}>
           <TouchableOpacity
             style={styles.buttonContainerOne}
-            onPress={() => storeData(starter, flavor, finale)}
+            onPress={() => saveItem(starter, flavor, finale)}
           >
             <MaterialCommunityIcons name="heart-plus" color="red" size={20} />
             <Text style={styles.topShelfButton}>Top Shelf</Text>

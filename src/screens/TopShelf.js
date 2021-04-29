@@ -1,40 +1,64 @@
-import React, {useState, useEffect} from 'react';
-import {Text, View, ImageBackground, Pressable} from 'react-native';
+import React, {useState} from 'react';
+import {Text, View, ImageBackground, Pressable, ScrollView} from 'react-native';
 import styles from '../styles/globalStyles';
 import weed from '../assets/weed.jpg';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {useEffect} from 'react';
 
 const TopShelf = () => {
   const [shelf, setShelf] = useState([]);
 
   const getData = async () => {
     try {
-      const value1 = await AsyncStorage.getItem('starter');
-      const value2 = await AsyncStorage.getItem('flavor');
-      const value3 = await AsyncStorage.getItem('finale');
-      // if (value1 !== null && value2 !== null && value3 !== null) {
-      //   setShelf([value1, value2, value3]);
-      // }
-      setShelf([value1, value2, value3]);
+      console.log('trying');
+      const jsonValue = await AsyncStorage.getItem('topShelf');
+      console.log(jsonValue);
+      return jsonValue != null ? setShelf(JSON.parse(jsonValue)) : null;
     } catch (e) {
       console.log(e);
     }
-    console.log(shelf);
   };
 
+  // const clearShelf = () => {
+  //   setShelf([]);
+  // };
+
+  // useEffect(() => {
+  //   getData();
+  // }, []);
+
+  console.log(shelf);
   return (
     <ImageBackground
       source={weed}
       style={styles.backgroundImage}
       imageStyle={{opacity: 0.8}}
     >
-      <View style={styles.heading}>
-        <Text>This is the top Shelf</Text>
+      <View style={styles.topShelfContainer}>
+        <Text style={styles.topShelfHeading}>This is the top Shelf</Text>
+        <ScrollView style={styles.topShelfScrollView}>
+          {shelf.map((item, index) => {
+            return (
+              <View style={styles.listItemContainer} key={index}>
+                <Text style={styles.topShelfListItem}>
+                  {item.starter} {item.flavor} {item.finale}
+                </Text>
+              </View>
+            );
+          })}
+        </ScrollView>
+
+        <Pressable onPress={() => getData()} style={styles.loadButtonContainer}>
+          <Text style={styles.loadButton}>Load my top shelf</Text>
+        </Pressable>
+        {/* <Pressable
+          onPress={() => clearShelf()}
+          style={styles.clearButtonContainer}
+        >
+          <Text style={styles.clearButton}>Clear Shelf</Text>
+        </Pressable> */}
       </View>
-      <Pressable onPress={() => getData()}>
-        <Text>Load my top shelf</Text>
-      </Pressable>
     </ImageBackground>
   );
 };

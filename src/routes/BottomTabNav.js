@@ -1,8 +1,12 @@
 import React from 'react';
+
 import {createMaterialBottomTabNavigator} from '@react-navigation/material-bottom-tabs';
+
+import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 
 import Home from '../screens/Home';
 import TopShelf from '../screens/TopShelf';
+import AddToDatabase from '../screens/AddToDatabase';
 import {NavigationContainer} from '@react-navigation/native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
@@ -14,12 +18,13 @@ const BottomTabNav = () => {
       <Tab.Navigator
         activeColor="red"
         inactiveColor="yellow"
-        // eslint-disable-next-line react-native/no-inline-styles
         barStyle={{
           backgroundColor: 'green',
-          padding: 20
+          padding: 10
         }}
         initialRouteName="Home"
+        sceneAnimationEnabled={false}
+        lazy={false}
         backBehavior="initialRoute"
         shifting={true}
       >
@@ -31,8 +36,9 @@ const BottomTabNav = () => {
                 name="heart-plus"
                 color={color}
                 size={30}
+                style={{height: 32, width: 32}}
               />
-            )
+            ),
           }}
           component={TopShelf}
         />
@@ -41,22 +47,28 @@ const BottomTabNav = () => {
           component={Home}
           options={{
             tabBarIcon: ({color}) => (
-              <MaterialCommunityIcons name="home" color={color} size={30} />
-            )
+              <MaterialCommunityIcons
+                name="home"
+                color={color}
+                size={30}
+                style={{height: 32, width: 32}}
+              />
+            ),
           }}
         />
         <Tab.Screen
           options={{
             tabBarIcon: ({color}) => (
               <MaterialCommunityIcons
-                name="database-search"
+                name="database-plus"
                 color={color}
                 size={30}
+                style={{height: 32, width: 32}}
               />
-            )
+            ),
           }}
-          name="DatabaseScreen"
-          component={Home}
+          name="Add To Database"
+          component={AddToDatabase}
         />
       </Tab.Navigator>
     </NavigationContainer>
