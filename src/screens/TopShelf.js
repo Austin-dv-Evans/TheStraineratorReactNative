@@ -36,7 +36,7 @@ const TopShelf = () => {
       imageStyle={{opacity: 0.8}}
     >
       <View style={styles.topShelfContainer}>
-        <Text style={styles.topShelfHeading}>This is the top Shelf</Text>
+        <Text style={styles.topShelfHeading}>The Top Shelf</Text>
         <ScrollView style={styles.topShelfScrollView}>
           {shelf.map((item, index) => {
             return (

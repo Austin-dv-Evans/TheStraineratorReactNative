@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TheStraineratorRemixIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TheStraineratorRemixIOSTests.m */; };
-		1046497B57129396B5CB2AA3 /* libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D62CCD92D41975202642EB7 /* libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E571FAEB144E20E8BE457C28 /* libPods-TheStraineratorRemixIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D9516ACA449FF80E273A89 /* libPods-TheStraineratorRemixIOS.a */; };
+		922BA32E8F9C8633A4EDB7C9 /* libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2379A2137DCC98B2C9352001 /* libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a */; };
+		E55E3024E07A0DEC92541ECA /* libPods-TheStraineratorRemixIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0D3562890330EE8FB5764A /* libPods-TheStraineratorRemixIOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,12 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TheStraineratorRemixIOS/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TheStraineratorRemixIOS/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TheStraineratorRemixIOS/main.m; sourceTree = "<group>"; };
-		24453C454545D1119E2391CC /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.release.xcconfig"; path = "Target Support Files/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		24D9516ACA449FF80E273A89 /* libPods-TheStraineratorRemixIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheStraineratorRemixIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FBAE326B4DC5E8D064B4E26 /* Pods-TheStraineratorRemixIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheStraineratorRemixIOS.debug.xcconfig"; path = "Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		14BBAF1AACCA7CCD3F8D0117 /* Pods-TheStraineratorRemixIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheStraineratorRemixIOS.release.xcconfig"; path = "Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS.release.xcconfig"; sourceTree = "<group>"; };
+		2379A2137DCC98B2C9352001 /* libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D6640974C672CC12B26991 /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.release.xcconfig"; path = "Target Support Files/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		37A2248E85FFEA335CECC034 /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5222546529C583D76F139525 /* Pods-TheStraineratorRemixIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheStraineratorRemixIOS.debug.xcconfig"; path = "Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TheStraineratorRemixIOS/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9D62CCD92D41975202642EB7 /* libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A07B0A2636DE4EB4923A961D /* Pods-TheStraineratorRemixIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheStraineratorRemixIOS.release.xcconfig"; path = "Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS.release.xcconfig"; sourceTree = "<group>"; };
-		BBA4AC867EB790845486F6D9 /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D934D9A6262CA8410098CEB9 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
 		D934D9A7262CA8410098CEB9 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
 		D934D9A8262CA8410098CEB9 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		D934D9B3262CA8420098CEB9 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
 		D934D9B4262CA8420098CEB9 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
 		D934D9B5262CA8420098CEB9 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		DB0D3562890330EE8FB5764A /* libPods-TheStraineratorRemixIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheStraineratorRemixIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1046497B57129396B5CB2AA3 /* libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a in Frameworks */,
+				922BA32E8F9C8633A4EDB7C9 /* libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E571FAEB144E20E8BE457C28 /* libPods-TheStraineratorRemixIOS.a in Frameworks */,
+				E55E3024E07A0DEC92541ECA /* libPods-TheStraineratorRemixIOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,8 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				24D9516ACA449FF80E273A89 /* libPods-TheStraineratorRemixIOS.a */,
-				9D62CCD92D41975202642EB7 /* libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a */,
+				DB0D3562890330EE8FB5764A /* libPods-TheStraineratorRemixIOS.a */,
+				2379A2137DCC98B2C9352001 /* libPods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,10 +125,10 @@
 		326009D8F5E4BBBE7367BBA0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4FBAE326B4DC5E8D064B4E26 /* Pods-TheStraineratorRemixIOS.debug.xcconfig */,
-				A07B0A2636DE4EB4923A961D /* Pods-TheStraineratorRemixIOS.release.xcconfig */,
-				BBA4AC867EB790845486F6D9 /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.debug.xcconfig */,
-				24453C454545D1119E2391CC /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.release.xcconfig */,
+				5222546529C583D76F139525 /* Pods-TheStraineratorRemixIOS.debug.xcconfig */,
+				14BBAF1AACCA7CCD3F8D0117 /* Pods-TheStraineratorRemixIOS.release.xcconfig */,
+				37A2248E85FFEA335CECC034 /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.debug.xcconfig */,
+				28D6640974C672CC12B26991 /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -195,11 +195,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TheStraineratorRemixIOSTests" */;
 			buildPhases = (
-				0686B704541A5365AFB43B03 /* [CP] Check Pods Manifest.lock */,
+				0C34577105685BFB6F4166D3 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
-				8AA1FFC12E20442D3CA66600 /* [CP] Embed Pods Frameworks */,
-				D8C73E2528D479D1C4B841F3 /* [CP] Copy Pods Resources */,
+				91CFC219C52CFB520B1880BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,14 +214,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "TheStraineratorRemixIOS" */;
 			buildPhases = (
-				A4A35FF08A07662B8D732080 /* [CP] Check Pods Manifest.lock */,
+				51DD0B3677DF685E57C9F264 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				1F3F3D526BC9E6B9600C34C0 /* [CP] Embed Pods Frameworks */,
-				63C1E0045BB8CD3A0DA81266 /* [CP] Copy Pods Resources */,
+				C988E04EB7C7C1832255C88A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,7 +237,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -296,7 +294,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		0686B704541A5365AFB43B03 /* [CP] Check Pods Manifest.lock */ = {
+		0C34577105685BFB6F4166D3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,58 +316,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1F3F3D526BC9E6B9600C34C0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		63C1E0045BB8CD3A0DA81266 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8AA1FFC12E20442D3CA66600 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A4A35FF08A07662B8D732080 /* [CP] Check Pods Manifest.lock */ = {
+		51DD0B3677DF685E57C9F264 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -391,7 +338,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D8C73E2528D479D1C4B841F3 /* [CP] Copy Pods Resources */ = {
+		91CFC219C52CFB520B1880BF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,6 +353,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests/Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C988E04EB7C7C1832255C88A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheStraineratorRemixIOS/Pods-TheStraineratorRemixIOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -460,7 +424,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBA4AC867EB790845486F6D9 /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.debug.xcconfig */;
+			baseConfigurationReference = 37A2248E85FFEA335CECC034 /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,7 +452,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24453C454545D1119E2391CC /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.release.xcconfig */;
+			baseConfigurationReference = 28D6640974C672CC12B26991 /* Pods-TheStraineratorRemixIOS-TheStraineratorRemixIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,7 +477,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FBAE326B4DC5E8D064B4E26 /* Pods-TheStraineratorRemixIOS.debug.xcconfig */;
+			baseConfigurationReference = 5222546529C583D76F139525 /* Pods-TheStraineratorRemixIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -539,7 +503,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A07B0A2636DE4EB4923A961D /* Pods-TheStraineratorRemixIOS.release.xcconfig */;
+			baseConfigurationReference = 14BBAF1AACCA7CCD3F8D0117 /* Pods-TheStraineratorRemixIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
